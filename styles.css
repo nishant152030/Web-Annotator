@@ -1,0 +1,54 @@
+.popup {
+  position: absolute;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Button styles */
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 8px 12px;
+  margin-right: 3px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Input field styles */
+.input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+/* Textarea styles */
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+/* Highlight styles */
+.web-annotator-highlight {
+  background-color: #ffff00;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.web-annotator-highlight:hover {
+  background-color: #ffe066;
+}
